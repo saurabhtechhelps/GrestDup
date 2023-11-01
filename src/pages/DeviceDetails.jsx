@@ -10,7 +10,6 @@ import DeviceCard from "../components/DeviceCard";
 import { useDataContext } from "../components/dataContext";
 
 const DeviceDetails = () => {
-  // const { dataModel, setdataModel } = useDataContext();
   const [dataModel, setDataModel] = useState({});
   const navigate = useNavigate();
   const userProfile = useSelector((state) => state.user.profile);
